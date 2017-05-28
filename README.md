@@ -1,15 +1,15 @@
-#### ggplot2 doughnut chart
+# ggplot2 doughnut chart
 
 Functions based on the method [https://stackoverflow.com/a/13636037/1156245](by bdemarest on Stackoverflow) to make nice doughnut charts with ggplot2.
 
 Note `stat_doughnut` and `geom_doughnut` do not work like conventional ggplot stat_ and geom_ functions, but are just simple wrappers for this `geom_rect` method.
 
-# Install
+### Install
 
     git clone https://github.com/geotheory/geom_doughnut
     source('/pathto//geom_doughnut.R'))
 
-# Example
+### Example
 
     # Basic usage
     d = data.frame(category=c("A", "B", "C"), count=c(10, 60, 30)) %>% stat_doughnut()
