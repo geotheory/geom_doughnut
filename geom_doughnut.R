@@ -10,7 +10,7 @@ stat_doughnut = function(x, y=NULL, g1=NULL, g2=NULL, w=.2){
   
   nut = function(d){
     d %>% mutate(fraction = val/sum(val)) %>% 
-    #arrange(fraction) %>% 
+    arrange(cat) %>% 
     mutate(ymax = cumsum(fraction),
            ymin = c(0, head(ymax, n=-1)))
   }
