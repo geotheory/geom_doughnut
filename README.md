@@ -1,8 +1,8 @@
 # ggplot2 doughnut chart
 
-Functions based on the method [by bdemarest on Stackoverflow](https://stackoverflow.com/a/13636037/1156245)) to make nice doughnut charts with ggplot2.
+Functions based on the method [by bdemarest on Stackoverflow](https://stackoverflow.com/a/13636037/1156245) to make nice doughnut charts with ggplot2.
 
-Note `stat_doughnut` and `geom_doughnut` do not work like conventional ggplot stat_ and geom_ functions, but are just simple wrappers for this `geom_rect` method.
+Note `stat_doughnut` and `geom_doughnut` do not work like conventional ggplot `stat_..` and `geom_..` functions, but are just simple wrappers for this `geom_rect` method.
 
 ### Install
 
